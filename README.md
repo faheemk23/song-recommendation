@@ -1,2 +1,3 @@
 # song-recommendation
-Created with CodeSandbox
+
+An app that gives you song recommendation, using ReactJS.
