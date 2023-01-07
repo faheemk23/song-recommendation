@@ -75,7 +75,7 @@ export default function App() {
   }
 
   return (
-    <div className="App">
+    <div style={{ padding: "0rem" }} className="App">
       <h1>
         <span role="img" aria-label="notes">
           🎶
@@ -121,6 +121,13 @@ export default function App() {
           );
         })}
       </ul>
+      <footer className="footer">
+        <div className="footer-header">About</div>
+        <p>
+          A song recommendation app that gives you a list of songs based on
+          genre selected.
+        </p>
+      </footer>
     </div>
   );
 }
