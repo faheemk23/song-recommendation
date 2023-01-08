@@ -115,7 +115,7 @@ export default function App() {
               >
                 {song.name}
               </div>
-              <div>Ratings:{song.ratings}</div>
+              <div>Rating:{song.ratings}</div>
               <div>{song.description}</div>
             </li>
           );
